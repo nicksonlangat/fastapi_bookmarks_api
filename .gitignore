@@ -1,0 +1,47 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env/
+env/
+*.env
+app/.env
+# Database files
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# Pytest
+.cache/
+
+# Django migrations
+migrations/
+
+# FastAPI specific
+*.db
+*.pyc
+
+# IDE specific files
+.vscode/
+.idea/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Docker related
+docker-compose.override.yml
+.dockerignore
+Dockerfile
+
+# Files for build tools
+build/
+dist/
+*.egg-info/
